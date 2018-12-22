@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+mutex	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^pthread_mutex_t mutex;$/;"	variable	line:11
+aggregateMutex	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^pthread_mutex_t aggregateMutex;$/;"	variable	line:12
+node	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^struct node {$/;"	struct	line:14	file:
+name	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^  char* name;$/;"	member	line:15	struct:node	file:
+next	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^  struct node* next;$/;"	member	line:16	struct:node	typeref:struct:node::node	file:
+directories	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^struct directories {$/;"	struct	line:19	file:
+inputdir	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^  char* inputdir;$/;"	member	line:20	struct:directories	file:
+outputdir	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^  char* outputdir;$/;"	member	line:21	struct:directories	file:
+candidate	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^struct candidate {$/;"	struct	line:24	file:
+name	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^  char* name;$/;"	member	line:25	struct:candidate	file:
+numVotes	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^  int numVotes;$/;"	member	line:26	struct:candidate	file:
+next	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^  struct candidate* next;$/;"	member	line:27	struct:candidate	typeref:struct:candidate::candidate	file:
+numOfFiles	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^int numOfFiles = 0;$/;"	variable	line:30
+head	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^struct node* head = NULL;$/;"	variable	line:31	typeref:struct:node
+tail	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^struct node* tail = NULL;$/;"	variable	line:32	typeref:struct:node
+findDir	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^char* findDir(char* path, char* name) {$/;"	function	line:34	signature:(char* path, char* name)
+deleteDir	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^void deleteDir(char* path){$/;"	function	line:67	signature:(char* path)
+create_dag	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^int create_dag(char* dag, char* outputdir){$/;"	function	line:92	signature:(char* dag, char* outputdir)
+findandUpdateCandidate	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^void findandUpdateCandidate(char* parentfilepath, char* candidateName, int votes, struct candidate** candHead){$/;"	function	line:155	signature:(char* parentfilepath, char* candidateName, int votes, struct candidate** candHead)
+findWinner	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^char* findWinner(struct candidate** candHead){$/;"	function	line:210	signature:(struct candidate** candHead)
+aggregateVotes	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^void aggregateVotes(char* path, char* inputFile, char* outputdir){$/;"	function	line:230	signature:(char* path, char* inputFile, char* outputdir)
+enqueue	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^void enqueue(char* name) {$/;"	function	line:429	signature:(char* name)
+dequeue	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^void dequeue() {$/;"	function	line:443
+queue_input	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^int queue_input(char* inputdir) {$/;"	function	line:452	signature:(char* inputdir)
+decrypt	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^void decrypt(char* candidate) {$/;"	function	line:470	signature:(char* candidate)
+addCandidate	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^int addCandidate(struct candidate** candHead, char* name){$/;"	function	line:488	signature:(struct candidate** candHead, char* name)
+childTask	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^int childTask(void* arg){$/;"	function	line:508	signature:(void* arg)
+main	/home/anthony/School/CSCI_4061/Assignment_3/TestCase03/champ142chen4714PA3.c	/^int main (int argc, char** argv) {$/;"	function	line:604	signature:(int argc, char** argv)

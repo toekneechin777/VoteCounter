@@ -1,0 +1,3 @@
+C:24,B:24,A:61
+Winner:A
+There is a cycle from Sub_County_3 to Who_Won

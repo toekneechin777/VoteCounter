@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Candidate	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Aggregate_Votes.c	/^typedef struct Candidate {$/;"	struct	line:16	file:
+name	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Aggregate_Votes.c	/^  char name[1024];$/;"	member	line:17	struct:Candidate	file:
+numOfVotes	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Aggregate_Votes.c	/^  int numOfVotes;$/;"	member	line:18	struct:Candidate	file:
+next	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Aggregate_Votes.c	/^  struct Candidate* next;$/;"	member	line:19	struct:Candidate	typeref:struct:Candidate::Candidate	file:
+aggregate_votes	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Aggregate_Votes.c	/^int aggregate_votes(char* path){$/;"	function	line:23	signature:(char* path)
+main	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Aggregate_Votes.c	/^int main(int argc, char** argv){$/;"	function	line:223	signature:(int argc, char** argv)
+Candidate	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Vote_Counter.c	/^typedef struct Candidate {$/;"	struct	line:17	file:
+name	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Vote_Counter.c	/^  char name[1024];$/;"	member	line:18	struct:Candidate	file:
+numOfVotes	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Vote_Counter.c	/^  int numOfVotes;$/;"	member	line:19	struct:Candidate	file:
+next	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Vote_Counter.c	/^  struct Candidate* next;$/;"	member	line:20	struct:Candidate	typeref:struct:Candidate::Candidate	file:
+Cycle	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Vote_Counter.c	/^typedef struct Cycle {$/;"	struct	line:23	file:
+source	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Vote_Counter.c	/^  char source[1024];$/;"	member	line:24	struct:Cycle	file:
+target	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Vote_Counter.c	/^  char target[1024];$/;"	member	line:25	struct:Cycle	file:
+next	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Vote_Counter.c	/^  struct Cycle* next;$/;"	member	line:26	struct:Cycle	typeref:struct:Cycle::Cycle	file:
+count_votes	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Vote_Counter.c	/^int count_votes(char* path){$/;"	function	line:31	signature:(char* path)
+detectCycle	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Vote_Counter.c	/^struct Cycle* detectCycle(char* path, struct Cycle* head) {$/;"	function	line:189	signature:(char* path, struct Cycle* head)
+main	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Vote_Counter.c	/^int main(int argc, char** argv){$/;"	function	line:261	signature:(int argc, char** argv)
+CC	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/makefile	/^CC=gcc$/;"	macro	line:1
+CLFAGS	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/makefile	/^CLFAGS=-std=c99$/;"	macro	line:2
+DBFLAGS	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/makefile	/^DBFLAGS=-g$/;"	macro	line:3
+MAX_FILE_NAME_SIZE	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/util.h	/^#define MAX_FILE_NAME_SIZE /;"	macro	line:6
+MAX_IO_BUFFER_SIZE	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/util.h	/^#define MAX_IO_BUFFER_SIZE /;"	macro	line:9
+makeargv	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/util.h	/^int makeargv(const char *s, const char *delimiters, char ***argvp) {$/;"	function	line:16	signature:(const char *s, const char *delimiters, char ***argvp)
+freemakeargv	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/util.h	/^void freemakeargv(char **argv) {$/;"	function	line:60	signature:(char **argv)
+trimwhitespace	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/util.h	/^char *trimwhitespace(char *str) {$/;"	function	line:68	signature:(char *str)
+Candidate	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Leaf_Counter.c	/^typedef struct Candidate {$/;"	struct	line:16	file:
+name	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Leaf_Counter.c	/^  char name[1024];$/;"	member	line:17	struct:Candidate	file:
+numOfVotes	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Leaf_Counter.c	/^  int numOfVotes;$/;"	member	line:18	struct:Candidate	file:
+next	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Leaf_Counter.c	/^  struct Candidate* next;$/;"	member	line:19	struct:Candidate	typeref:struct:Candidate::Candidate	file:
+parseInput	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Leaf_Counter.c	/^int parseInput(char* path){$/;"	function	line:22	signature:(char* path)
+main	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase02/Leaf_Counter.c	/^int main(int argc, char **argv){$/;"	function	line:159	signature:(int argc, char **argv)

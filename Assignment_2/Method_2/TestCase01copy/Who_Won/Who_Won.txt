@@ -1,0 +1,6 @@
+B:5,C:14,D:13,A:4
+Winner:C
+There is a cycle from Region_2 to Who_Won
+There is a cycle from Sub_County_2 to Region_1
+There is a cycle from Sub_County_1 to County_1
+There is a cycle from Sub_County_1 to Who_Won

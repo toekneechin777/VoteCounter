@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase01/makefile	/^CC=gcc$/;"	macro	line:1
+CLFAGS	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase01/makefile	/^CLFAGS=-std=c99$/;"	macro	line:2
+DBFLAGS	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase01/makefile	/^DBFLAGS=-g$/;"	macro	line:3
+MAX_FILE_NAME_SIZE	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase01/util.h	/^#define MAX_FILE_NAME_SIZE /;"	macro	line:6
+MAX_IO_BUFFER_SIZE	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase01/util.h	/^#define MAX_IO_BUFFER_SIZE /;"	macro	line:9
+makeargv	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase01/util.h	/^int makeargv(const char *s, const char *delimiters, char ***argvp) {$/;"	function	line:16	signature:(const char *s, const char *delimiters, char ***argvp)
+freemakeargv	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase01/util.h	/^void freemakeargv(char **argv) {$/;"	function	line:60	signature:(char **argv)
+trimwhitespace	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase01/util.h	/^char *trimwhitespace(char *str) {$/;"	function	line:68	signature:(char *str)
+Candidate	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase01/Leaf_Counter.c	/^typedef struct Candidate {$/;"	struct	line:11	file:
+name	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase01/Leaf_Counter.c	/^  char name[1024];$/;"	member	line:12	struct:Candidate	file:
+numOfVotes	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase01/Leaf_Counter.c	/^  int numOfVotes;$/;"	member	line:13	struct:Candidate	file:
+next	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase01/Leaf_Counter.c	/^  struct Candidate* next;$/;"	member	line:14	struct:Candidate	typeref:struct:Candidate::Candidate	file:
+parseInput	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase01/Leaf_Counter.c	/^int parseInput(char* path){$/;"	function	line:17	signature:(char* path)
+main	/home/anthony/School/CSCI_4061/Assignment_2/PA2/TestCase01/Leaf_Counter.c	/^int main(int argc, char **argv){$/;"	function	line:127	signature:(int argc, char **argv)

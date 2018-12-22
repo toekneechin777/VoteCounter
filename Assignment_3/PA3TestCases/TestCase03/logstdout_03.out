@@ -1,0 +1,22 @@
+inputDAG[/export/scratch/louai/workspace_C/pa3testcases/temptest/input.txt]
+InputDir[/export/scratch/louai/workspace_C/pa3testcases/temptest/inputdir]
+OutputDir[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir]
+** Graph[Region_1 , 0]
+** Graph[Who_Won , 0]
+Thread[Region_1]	Start
+Aggregate Recursively[Region_1]
+ReadFile[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Region_1/Region_1.txt]
+parentPath[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/]
+++++ SubGraph of[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/]
+** Graph[Region_1 , 0]
+===========Graph===========
+** Graph[Region_1 , 0]
+** Graph[Who_Won , 0]
+===========================
+--------------------------------------------------------
+	 READ WRITE AND CONTINUE 
+--------------------------------------------------------
+
+**path where to write[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Who_Won.txt]
+Thread[Region_1]	End
+program exit successfully -:)

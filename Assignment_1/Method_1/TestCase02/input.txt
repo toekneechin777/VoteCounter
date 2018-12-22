@@ -1,0 +1,7 @@
+3 A B C
+Who_Won Region_1 Region_2 Region_3 Region_4 Region_5 County_1 County_2 County_3 County_4 Sub_County_1 Sub_County_2 Sub_County_3
+Who_Won : Region_1 Region_2 Region_3 Region_4 Region_5
+Region_1 : County_1 County_2 County_3
+County_1 : Sub_County_1 Sub_County_2
+County_2 : Sub_County_3
+Region_5 : County_4

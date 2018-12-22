@@ -1,0 +1,69 @@
+# README
+Anthony Chen, chen4714 5220235
+Samira Champlin, champ142 5071604
+2/21/18
+Each partner wrote approximately half of the code, and debugged the other half.
+
+## Purpose
+This program take a file that describes the relationship between different groups and subgroups, and files for each of 
+the smallest groups that contains the votes on a set number of candidates for that group, and gives the overall winning
+candidate after the votes are collected at each group in a file called Output_Who_Won.
+
+## Compiling
+To compile this program, ensure that your current directory contains votecounter.c, makeargv.h, makefile, and input.txt,
+along with three exucutables titled leafcounter, find_winner, and aggregate_votes. In addition, there should be a text
+file for each leaf node, titled after the respective leaf node, that contains the candidate votes for that group.
+
+## Usage
+To run the program in the shell:
+make
+./votcounter.o input.txt
+
+## What it does
+
+### parseInput
+Inputs: char* filename, node_t* n
+Output: int
+*First half written by Anthony, second half written by Samira*
+Open file by filename and read a line to a buffer. This line is sent to parseInputLine and the next line is read to the
+buffer. This cycle repeats until there are no more lines in the given file. After all lines have been read and sent to
+parseInputLine, the proper executable names are set to each of the nodes, which were created in parseInputLine.
+
+### parseInputLine
+Inputs: char* s, node_t* n
+Output: int
+*Parsing written by Anthony, node setup written by Samira, debugged by Anthony*
+Create a pointer to an array of strings. Split s by the character " " and get the number of strings in s from makeargv.
+If the first string is a number, this is the first line, so the rest of the string contains all the candidates. The number
+of candidates is saved, and each candidate name is saved in an array. If the second string is not a ":", this is the second
+line. All nodes are initialized, being assigned a name, id, output name (Output_ followed by name) and number of children
+set to 0. Each node is added to the node array n. Finally, if the second string is ":", these are the last lines that 
+contain the node dependencies. Assign the current node's number of children, add each child's id to the current node's 
+array of children.
+
+### execNode
+Inputs: node_t* n, int iD
+Output: none
+*written by Samira, heavily debugged by Anthony and Samira*
+If the node that has the passed iD is a parent node, it will fork once for each child. Then, if a process is a child process,
+it runs execNode again, but passes its own id in as iD. If a process is a parent process, it waits for all children before
+creating an array of parameters and executing its assigned executable program. The array of parameters is created using
+all of the node's children's output names.
+If the node that has been passed is a leaf node, the appropriate list of parameters is created and it executes its assigned
+executable program.
+
+## Extra Credit
+
+### cycleCheck and cycleBackEdgeCheck
+cycleCheck
+Inputs: node_t* n
+Output: int
+cycleBackEdgeCheck
+Inputs: node_t* n, int iD, int* visited, int*recursion
+Output: int
+*written by Anthony*
+In these two helper functions we use two int arrays to check for cycle. One is the visited array which keep tracks which nodes
+have been visited when the functions runs DFS through recursion. The recursion array keeps track which of the nodes produces a cycle
+and basically goes up the tree returning '1' aka that there has been a cycle. There are basically two ways this method finds 
+cycle. (1) By running DFS and finding a childnode (with a single parent) that cycles back to an ancestor node. Or (2) By running
+DFS and finding a childnode (with multiple parents) cycling back to the other parent node or an ancestor node.

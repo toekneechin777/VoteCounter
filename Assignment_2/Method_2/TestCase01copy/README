@@ -1,0 +1,26 @@
+/*login: champ142, chen4714
+date: 03/08/18
+name: Samira Champlin, Anthony Chen
+id: 5071604, 5220235
+Lecture section 001*/
+
+# README
+
+## Purpose
+### This program counts the votes for a set of candidates by traversing a
+directory's subdirectories and retrieving the vote information from the
+smallest sub-areas. It finds the candidate that received the highest number
+of votes, and gives the name and number of votes at the end of a file
+created in the given path.
+
+## Contributions
+Leaf_Counter written by Anthony.
+Aggregate_Votes written by Samira.
+Vote_Counter started by Anthony, finished by Samira.
+Memory freeing by Anthony.
+Code cleanup and and commenting by Samira.
+Error handling and debugging by both.
+Extra credit written by Samira, Debugged by Samira and Anthony
+
+## Doing extra credit
+Create a linked list of all cycles. Each node contains the source and target of the symbolic link that makes the cycle. Each cycle is added to the bottom of the winner file.

@@ -1,0 +1,75 @@
+inputDAG[/export/scratch/louai/workspace_C/pa3testcases/temptest/input.txt]
+InputDir[/export/scratch/louai/workspace_C/pa3testcases/temptest/inputdir]
+OutputDir[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir]
+** Graph[Sub_Sub_County_1 , 0]
+** Graph[Sub_County_1 , 0]
+** Graph[County_1 , 0]
+** Graph[Region_1 , 0]
+** Graph[Who_Won , 0]
+Thread[Sub_Sub_County_1]	Start
+Aggregate Recursively[Sub_Sub_County_1]
+ReadFile[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Region_1/County_1/Sub_County_1/Sub_Sub_County_1/Sub_Sub_County_1.txt]
+parentPath[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Region_1/County_1/Sub_County_1/]
+++++ SubGraph of[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Region_1/County_1/Sub_County_1/]
+===========Graph===========
+** Graph[Sub_Sub_County_1 , 0]
+** Graph[Sub_County_1 , 0]
+** Graph[County_1 , 0]
+** Graph[Region_1 , 0]
+** Graph[Who_Won , 0]
+===========================
+--------------------------------------------------------
+	 READ WRITE AND CONTINUE 
+--------------------------------------------------------
+
+**path where to write[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Region_1/County_1/Sub_County_1/Sub_County_1.txt]
+parentPath[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Region_1/County_1/]
+++++ SubGraph of[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Region_1/County_1/]
+** Graph[Sub_County_1 , 0]
+===========Graph===========
+** Graph[Sub_Sub_County_1 , 1]
+** Graph[Sub_County_1 , 1]
+** Graph[County_1 , 0]
+** Graph[Region_1 , 0]
+** Graph[Who_Won , 0]
+===========================
+--------------------------------------------------------
+	 READ WRITE AND CONTINUE 
+--------------------------------------------------------
+
+**path where to write[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Region_1/County_1/County_1.txt]
+parentPath[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Region_1/]
+++++ SubGraph of[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Region_1/]
+** Graph[Sub_County_1 , 0]
+** Graph[County_1 , 0]
+===========Graph===========
+** Graph[Sub_Sub_County_1 , 1]
+** Graph[Sub_County_1 , 1]
+** Graph[County_1 , 1]
+** Graph[Region_1 , 0]
+** Graph[Who_Won , 0]
+===========================
+--------------------------------------------------------
+	 READ WRITE AND CONTINUE 
+--------------------------------------------------------
+
+**path where to write[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Region_1/Region_1.txt]
+parentPath[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/]
+++++ SubGraph of[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/]
+** Graph[Sub_County_1 , 0]
+** Graph[County_1 , 0]
+** Graph[Region_1 , 0]
+===========Graph===========
+** Graph[Sub_Sub_County_1 , 1]
+** Graph[Sub_County_1 , 1]
+** Graph[County_1 , 1]
+** Graph[Region_1 , 1]
+** Graph[Who_Won , 0]
+===========================
+--------------------------------------------------------
+	 READ WRITE AND CONTINUE 
+--------------------------------------------------------
+
+**path where to write[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Who_Won.txt]
+Thread[Sub_Sub_County_1]	End
+program exit successfully -:)

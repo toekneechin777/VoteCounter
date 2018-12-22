@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+node	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^typedef struct node{$/;"	struct	line:5
+name	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^	char name[1024];$/;"	member	line:6	struct:node
+prog	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^	char prog[1024];$/;"	member	line:7	struct:node
+input	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^	char input[50][1024];$/;"	member	line:8	struct:node
+output	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^	char output[1024];$/;"	member	line:9	struct:node
+children	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^	int children[10];$/;"	member	line:10	struct:node
+num_children	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^	int num_children;$/;"	member	line:11	struct:node
+status	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^	int status;$/;"	member	line:12	struct:node
+pid	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^	pid_t pid;$/;"	member	line:13	struct:node
+id	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^	int id;$/;"	member	line:14	struct:node
+node_t	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^}node_t;$/;"	typedef	line:15	typeref:struct:node
+makeargv	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^int makeargv(const char*s, const char *delimiters, char ***argvp){$/;"	function	line:19	signature:(const char*s, const char *delimiters, char ***argvp)
+trimwhitespace	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^char *trimwhitespace(char *str)$/;"	function	line:72	signature:(char *str)
+findnode	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^node_t* findnode(node_t* start, char* tobefound){$/;"	function	line:94	signature:(node_t* start, char* tobefound)
+findNodeByID	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^node_t* findNodeByID(node_t* start, int tobefound){$/;"	function	line:107	signature:(node_t* start, int tobefound)
+prepend	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^char* prepend(char* s, const char* t)$/;"	function	line:122	signature:(char* s, const char* t)
+printgraph	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/makeargv.h	/^void printgraph(node_t* mainnodes, int num){$/;"	function	line:136	signature:(node_t* mainnodes, int num)
+MAX_NODES	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/votecounter.c	/^#define MAX_NODES /;"	macro	line:15	file:
+parseInput	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/votecounter.c	/^int parseInput(char *filename, node_t *n){$/;"	function	line:38	signature:(char *filename, node_t *n)
+parseInputLine	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/votecounter.c	/^int parseInputLine(char *s, node_t *n){$/;"	function	line:64	signature:(char *s, node_t *n)
+main	/home/anthony/School/CSCI_4061/Assignment_1/Programming Assignment 1/votecounter.c	/^int main(int argc, char **argv){$/;"	function	line:124	signature:(int argc, char **argv)

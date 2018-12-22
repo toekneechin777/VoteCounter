@@ -1,0 +1,27 @@
+# VC3
+# champ142 chen4714
+# Samira Champlin and Anthony Chen
+# Lecture section 001
+# Implemented extra credit
+
+
+# PURPOSE
+## This program finds the election winner of votes casted by sub-areas for any number of candidates.
+
+# COMPILE
+## make clean
+## make
+## ./votecounter <DAG.txt> <inputdir> <outputdir> <num_threads>
+
+# WHAT IT DOES
+## The program creates a directory tree based on the input DAG file, and aggregates votes from each leaf up to
+## the root node, using one thread for each leaf. The winner is displayed at the end of the file output in the
+## root node. Appropropriate leaf node files are obtained from a queue, and are ensured to exist in the DAG
+## before working with them.
+
+# CONTRBUTIONS
+## main function written by Anthony and Samira.
+## child_task written by Anthony with help from Samira
+## aggregate_votes written by Samira and debugged by Samira and Anthony
+## Memory errors fixed by Samira
+## Extra credit and log file implementation by Anthony

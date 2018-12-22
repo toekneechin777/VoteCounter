@@ -1,0 +1,6 @@
+Who_Won:Region_1:Region_2:Region_3
+Region_1:County_1:County_2:County_3
+Region_2:County_4:County_5
+County_1:Sub_County_1:Sub_County_2
+County_5:Sub_Sub_County_1
+Sub_Sub_County_1:Sub_Sub_Sub_County_1

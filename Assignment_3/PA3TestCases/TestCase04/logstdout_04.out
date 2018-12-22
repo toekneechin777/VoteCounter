@@ -1,0 +1,47 @@
+inputDAG[/export/scratch/louai/workspace_C/pa3testcases/temptest/input.txt]
+InputDir[/export/scratch/louai/workspace_C/pa3testcases/temptest/inputdir]
+OutputDir[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir]
+** Graph[Region_2 , 0]
+** Graph[Region_1 , 0]
+** Graph[Who_Won , 0]
+Thread[Region_1]	Start
+Aggregate Recursively[Region_1]
+Thread[Region_2]	Start
+ReadFile[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Region_1/Region_1.txt]
+parentPath[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/]
+++++ SubGraph of[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/]
+** Graph[Region_2 , 0]
+** Graph[Region_1 , 0]
+===========Graph===========
+** Graph[Region_2 , 0]
+** Graph[Region_1 , 0]
+** Graph[Who_Won , 0]
+===========================
+--------------------------------------------------------
+	 READ WRITE AND EXIT 
+--------------------------------------------------------
+
+**path where to write[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Who_Won.txt]
+Thread[Region_1]	End
+Aggregate Recursively[Region_2]
+ReadFile[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Region_2/Region_2.txt]
+parentPath[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/]
+++++ SubGraph of[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/]
+** Graph[Region_2 , 0]
+** Graph[Region_1 , 0]
+===========Graph===========
+** Graph[Region_2 , 0]
+** Graph[Region_1 , 1]
+** Graph[Who_Won , 0]
+===========================
+--------------------------------------------------------
+	 READ WRITE AND CONTINUE 
+--------------------------------------------------------
+
+**path where to write[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Who_Won.txt]
+ReadFile[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Who_Won.txt]
+/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Who_Won.txt file deleted successfully.
+
+**path where to write[/export/scratch/louai/workspace_C/pa3testcases/temptest/outputdir/Who_Won/Who_Won.txt]
+Thread[Region_2]	End
+program exit successfully -:)
